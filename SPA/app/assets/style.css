@@ -1,0 +1,126 @@
+html{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+body{
+    margin:0;
+    overflow-x: hidden;
+}
+
+a{
+    color: #01579b;
+    transition: color 0.4s ease;
+}
+
+a:hover{
+    color:#00b0ff,
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+.error{
+    padding: 1rem;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    color:#fff;
+    background-color: #dc3545;
+}
+
+.loader{
+    display: block;
+    margin:1rem auto;
+    width: 4rem;
+    height: 4rem;
+}
+
+.form-search{
+    margin:auto;
+    text-align: center;
+}
+.form-search input{
+    display: block;
+    margin: auto;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+}
+
+.header{
+    padding: 0.5rem;
+    position: sticky;
+    top:0;
+    z-index:1;
+    text-align: center;
+    background-color: #fff;
+}
+.header > *{
+    margin:1rem auto;
+}
+
+.post-card{
+    margin:1rem auto;
+    padding: 1rem;
+    width: 80%;
+    background-color: lightgray;
+}
+
+.post-card p{
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid-fluid{
+    margin:1rem auto;
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+}
+
+.post-page{
+    width: 80%;
+    padding: 1rem;
+    margin:1rem auto;
+    background-color: lightgrey;
+}
+.post-page aside{
+    margin:auto;
+    width: 80%;
+    text-align: center;
+}
+.post_page article time{
+    margin: 1rem auto;
+    display: block;
+}
+.post-page hr{
+    border: thin solid black;
+    margin: 2rem auto;
+}
+
+.post-page > article{
+    padding:0 2rem;
+}
+
+.post-page img,
+.post-page iframe,
+.post-page audio,
+.post-page video{
+    margin:auto;
+    display: block;
+    max-width: 100%;
+}

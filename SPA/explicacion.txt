@@ -1,0 +1,13 @@
+APRENDIENDO LA ESTRUCTURA DE LAS SPA (-- MODELO SEMEJANTE AL DE LAS LIBRERIAS REACT/ANGULAR)
+
+CARPETA APP: donde ira la aplicacion
+
+    CARPETA ASSETS: donde van los recursos que voy a utilizar en mi app (vectores, hojas css, imgs) ---> Se le conoce como PUBLIC en otras tecnologias
+
+    CARPETA COMPONENTS: donde van los componentes visuales 
+
+    CARPETA HELPERS: donde van los scripts que NO SON componentes visuales, pero son fragmentos de codigo que resulven algo en particular
+
+    App.js: archivo de tipo componente, pero siendo el padre de toda la aplicacion (por eso no va en CARPETA COMPONENTS)
+
+    index.js: Archivo principal, el cual desencadena toda la programacion
