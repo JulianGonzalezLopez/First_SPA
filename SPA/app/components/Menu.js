@@ -5,7 +5,9 @@ export function Menu(){
     `
     <a href="#/">Home</a>
     <span>-</span>
-    <a href="#/search">Busqueda</a>
+    <a href="#/search">Search</a>
+    <span>-</span>
+    <a href="#/contact">Contact Me!</a>
     `
     return $menu;
 }

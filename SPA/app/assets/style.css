@@ -124,3 +124,10 @@ h1{
     display: block;
     max-width: 100%;
 }
+
+.search-card{
+    margin:1rem auto;
+    padding: 1rem;
+    width: 80%;
+    background-color: lightgray;
+}

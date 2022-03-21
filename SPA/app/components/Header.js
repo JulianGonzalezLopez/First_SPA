@@ -1,5 +1,5 @@
 import { Menu } from "./Menu.js";
-import { SeachForm } from "./SeachForm.js";
+import { SearchForm } from "./SearchForm.js";
 import {Title} from "./Title.js"; 
 
 export function Header(){
@@ -7,6 +7,6 @@ export function Header(){
     $header.classList.add("header");
     $header.appendChild(Title());
     $header.appendChild(Menu());
-    $header.appendChild(SeachForm());
+    $header.appendChild(SearchForm());
     return $header;
 }

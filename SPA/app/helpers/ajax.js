@@ -10,8 +10,9 @@ export async function ajax(props){
         cbSuccess(json);
     })
     .catch(err=>{
+        console.log(err);
         let message = err.statusText || "Ocurrio un error";
-        document.getElementById("main   ").innerHTML = `
+        document.getElementById("main").innerHTML = `
         <div class="error">
             <p>Error ${err.status}: ${message}</p>
         </div>

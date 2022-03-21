@@ -8,7 +8,7 @@ export function Post(props){
      time = document.createElement("time"),
      hr = document.createElement("hr"),
      article = document.createElement("article");
-
+    console.log(content);
      article.innerHTML = content.rendered;
      time.datetime = date;
      time.textContent = dateFormated;
